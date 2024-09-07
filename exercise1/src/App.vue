@@ -6,8 +6,10 @@
 </template>
 
 <script>
-import Hero from "./components/Hero";
-import Card from "./components/Card";
+import HeroSection from "./components/sections/HeroSection";
+import CardSection from "./components/sections/CardSection";
+import Card from "./components/ui/Card";
+import Button from "./components/ui/Button";
 
 export default { name: "App", components: { Hero, Card } };
 </script>
