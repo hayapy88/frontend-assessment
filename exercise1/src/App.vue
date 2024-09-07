@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Hero />
-    <Card />
+    <HeroSection />
+    <CardSection />
   </div>
 </template>
 
@@ -11,5 +11,5 @@ import CardSection from "./components/sections/CardSection";
 import Card from "./components/ui/Card";
 import Button from "./components/ui/Button";
 
-export default { name: "App", components: { Hero, Card } };
+export default { name: "App", components: { HeroSection, CardSection } };
 </script>
