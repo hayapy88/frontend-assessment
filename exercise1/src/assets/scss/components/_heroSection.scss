@@ -18,9 +18,9 @@
     @apply absolute inset-0 flex flex-col items-center justify-center px-4 text-white text-center;
   }
   &__title {
-    @apply text-3xl md:text-4xl font-bold;
+    @apply text-3xl md:text-7xl font-bold;
   }
   &__message {
-    @apply text-sm;
+    @apply text-sm md:text-4xl mt-4 tracking-wider;
   }
 }
