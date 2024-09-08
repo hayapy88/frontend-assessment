@@ -1,9 +1,17 @@
 <template>
-  <div>
-    <img :src="imageSrc" alt="Card image" />
-    <p>{{ text }}</p>
+  <div class="card">
+    <div class="card__content">
+      <div class="card__image">
+        <img :src="imageSrc" alt="Card image" />
+      </div>
+      <div class="card__text">
+        <p>{{ text }}</p>
+      </div>
+    </div>
+    <div class="card__button">
+      <Button></Button>
+    </div>
   </div>
-  <Button>Button</Button>
 </template>
 
 <script>

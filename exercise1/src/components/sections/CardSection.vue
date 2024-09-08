@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card-section">
     <Card
       v-for="card in cards"
       :key="card.id"
