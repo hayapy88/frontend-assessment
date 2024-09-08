@@ -15,12 +15,12 @@
   }
 
   &__texts {
-    @apply absolute inset-0 flex flex-col items-center justify-center mt-2 px-4 text-white text-center;
+    @apply absolute inset-0 flex flex-col items-center justify-center mt-0 md:mt-2 px-3 text-white text-center;
   }
   &__title {
-    @apply text-5xl md:text-7xl font-bold tracking-wide;
+    @apply text-5xl md:text-7xl font-bold tracking-wider md:tracking-wide leading-relaxed;
   }
   &__message {
-    @apply text-sm md:text-4xl mt-4 tracking-wider;
+    @apply text-2xl md:text-4xl -mt-2 md:mt-4 tracking-widest md:tracking-wider leading-relaxed;
   }
 }

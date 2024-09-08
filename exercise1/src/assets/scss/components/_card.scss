@@ -5,10 +5,10 @@
 
   &__image {
     img {
-      @apply w-full;
+      @apply w-full rounded;
     }
   }
   &__text {
-    @apply my-4 text-center;
+    @apply my-4 md:my-4 text-center;
   }
 }
