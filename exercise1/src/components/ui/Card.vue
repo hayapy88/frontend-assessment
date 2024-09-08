@@ -4,9 +4,9 @@
       <div class="card__image">
         <img :src="imageSrc" alt="Card image" />
       </div>
-      <div class="card__text">
-        <p>{{ text }}</p>
-      </div>
+      <p class="card__text">
+        {{ text }}
+      </p>
     </div>
     <div class="card__button">
       <Button></Button>

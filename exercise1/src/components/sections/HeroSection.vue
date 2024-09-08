@@ -4,7 +4,7 @@
     <div class="hero__texts">
       <h1 class="hero__title">Hello Developer!</h1>
       <p class="hero__message">
-        Loren ipsum dolor sit amet, consectetur adipiscing elit
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
       </p>
     </div>
   </div>
