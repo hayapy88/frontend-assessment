@@ -1,5 +1,10 @@
 @use "@/assets/scss/utils/variables";
 
 .button {
-  @apply w-36 px-4 py-2 border-2 border-gray-950 text-gray-950 bg-white rounded-full text-base tracking-widest;
+  @apply w-36 px-4 py-2 border-2 border-gray-950 text-gray-950 bg-white rounded-full text-base tracking-widest transition-all duration-300 ease-in-out;
+
+  &:hover {
+    @apply bg-gray-950 text-white;
+    transform: scale(1.15);
+  }
 }
