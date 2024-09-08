@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publicPath: "/",
   },
   module: {
     rules: [
@@ -43,6 +44,13 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: "asset/resource",
+        generator: {
+          filename: "assets/images/[name][ext]",
+        },
+      },
     ],
   },
   plugins: [
@@ -57,13 +65,15 @@ module.exports = {
   resolve: {
     alias: {
       vue: "vue/dist/vue.esm-bundler.js",
+      "@": path.resolve(__dirname, "src"),
     },
-    extensions: [".js", ".vue"],
+    extensions: [".js", ".vue", ".json"],
   },
   devServer: {
-    static: path.join(__dirname, "public"),
+    static: path.join(__dirname, "dist"),
     compress: true,
     port: 8000,
     open: true,
+    hot: true,
   },
 };

@@ -1,4 +1,4 @@
-@use "../utils/variables";
+@use "@/assets/scss/utils/variables";
 
 .hero {
   @apply relative;
@@ -6,11 +6,11 @@
   &__image {
     @apply bg-cover bg-no-repeat bg-center w-full;
     padding-top: 100%;
-    background-image: url("../images/image_600x600.png");
+    background-image: url("@/assets/images/image_600x600.png");
 
     @media (min-width: 768px) {
       padding-top: 33.85%;
-      background-image: url("../images/image_1920x650.png");
+      background-image: url("@/assets/images/image_1920x650.png");
     }
   }
 
