@@ -36,8 +36,5 @@ export default {
       ],
     };
   },
-  created() {
-    console.log(this.cardList); // data内のcardListを参照
-  },
 };
 </script>
