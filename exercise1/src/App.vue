@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <HeroSection />
-    <CardSection :cards="cardList" />
-  </div>
+  <HeroSection />
+  <CardSection :cards="cardList" />
 </template>
 
 <script>
