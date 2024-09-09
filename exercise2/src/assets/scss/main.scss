@@ -1,3 +1,7 @@
+@use "@/assets/scss/base/_base.scss";
+@use "@/assets/scss/components/_items.scss";
+@use "@/assets/scss/components/_item.scss";
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
